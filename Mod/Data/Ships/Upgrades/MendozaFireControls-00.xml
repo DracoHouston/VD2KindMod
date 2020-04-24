@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Manual Fire Control Upgrade"/> 
+<objectID attr1="MendozaFCS00"/> 
+<upgradeCategory attr1="weapon"/>
+<upgradeType attr1="other"/>
+<cost attr1="500000"/>
+<turret>
+    <turretID attr1="mendozaBT"/> 
+	<position x="-24.806" y="39.113" z="-285"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="parents_target"/>
+	<yawPermitted attr1="1"/>
+	<weaponFire attr1="secondary"/> 
+	<weaponPositionID attr1="2"/>
+</turret>
+<turret>
+    <turretID attr1="mendozaBT"/> 
+	<position x="24.806" y="39.113" z="-285"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="parents_target"/>
+	<yawPermitted attr1="1"/>
+	<weaponFire attr1="secondary"/> 
+	<weaponPositionID attr1="3"/>
+</turret>
+<description attr1="Refines Fire Control System to give manual control of beam cannons in the Secondary Weapons group"/>
+<description attr1=" "/>
+<description attr1="AI will no longer be given control of the beam cannons as they are placed under manual control"/>

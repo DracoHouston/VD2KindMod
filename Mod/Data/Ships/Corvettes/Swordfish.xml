@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Swordfish"/> 
+<objectID attr1="swordfish"/> 
+<faction attr1="kind"/> 
+<shipClass attr1="corvette"/> 
+<shipClassSize attr1="heavy"/>
+<combatAIClass attr1="frigate"/>
+<meshName attr1="Swordfish.mesh"/>
+<wireframeMaterial attr1="WF/Harnden"/> 
+<descriptionText attr1="A Kind heavy combat corvette."/> 
+<descriptionText attr1=" "/>
+<descriptionText attr1="Armed with two rail guns it can deliver near instantaneous damage. As a bonus it is well defended by point defense turrets, making it a significant obstacle for missile and torpedo ships."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Unlike the clumsy modifications of Stub ships, the Swordfish represents a viable future for the Kind. The ability to create new ships means the ability to adapt to change, an absolute necessity to survival."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Drone launcher."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Similar to a hangar, a drone launcher is capable of manufacturing and launching Teardrop drones. The small size of the drone bay means that a significant manufacture time is required until additional drones can be built."/>
+<creditCost attr1="1825000"/>
+<bSaveFileUnlockShip attr1="1"/>
+<cruiseSpeed attr1="45.0"/>
+<timeTillCruise attr1="3.15"/> 
+<yaw 	attr1="28.0"/> 
+<pitch	attr1="28.0"/> 
+<roll 	attr1="45.0"/> 
+<bGravityDrive attr1="1"/> 
+<bEveryShipyardOk attr1="1"/>
+<cockpitID attr1="cockpit002-1"/>
+<cockpitActualPos x="0" y="-15.43" z="16.28"/>
+<cockpitActualPos x="0" y="-22.57" z="2.12"/>
+<cockpitActualPos x="0" y="6.74" z="34.08"/>
+<bHideShipInCockpitAcutal attr1="0"/>
+<_cockpitActualMesh attr1="cockpitSwordfish.mesh"/>
+<cockpitInitPos x="0" y="34.65" z="25.78"/>
+<cockpitTransLimit x="3" y="3" z="3"/>
+<chaseInitPos x="0" y="82.09" z="404.78"/>
+<chaseTransLimit x="16" y="10" z="6"/> 
+<health attr1="22000"/> 
+<armor attr1="1.0"/>
+<buildTime	attr1="30.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="300.0"/> 
+<ore		attr1="400.0"/> 
+<damage>
+    <pitch attr1="15.0"/> 
+    <roll attr1="-110.0"/> 
+	<yaw attr1="12.0"/> 
+	<position x="6.725" y="-18.887" z="42.09"/>
+	<healthPoint attr1="0.22"/>
+	<damageEffectID attr1="damage01"/>
+</damage>
+<damage>
+    <pitch attr1="35.0"/> 
+    <roll attr1="55.0"/> 
+	<yaw attr1="22.0"/> 
+	<position x="-9.565" y="14.065" z="-27.536"/>
+	<healthPoint attr1="0.32"/>
+	<damageEffectID attr1="damage01"/>
+</damage>
+<deathTimer attr1="2.8"/> 
+<deathSpin x="-0.07" y="0.02" z="0.07"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="swordFishD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris>
+</debrisInfo> 
+<explosionID attr1="explode04"/>
+<preExplosionID attr1="explode01"/>
+<preExplosionID attr1="explode02"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/> 
+	<position x="0.0" y="1.441" z="90.05"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="5.55"/> 
+    <capacity attr1="13"/>
+    <recharge attr1="14"/> 
+</afterburner>
+<weapon> 
+    <weaponType attr1="instant"/> 
+    <hardpointID attr1="swordFRG"/>
+	<weaponPosition x="21.742" y="-12.966" z="-38.666"/>
+	<weaponPosition x="-21.742" y="-12.966" z="-38.666"/>
+	<weaponFire attr1="primary"/> 
+</weapon>
+<turret>
+    <turretID attr1="bullfrogT01"/> 
+    <turretOrientation attr1="right"/> 
+	<position x="25.662" y="15.314" z="34.412"/>
+	<pitchLower attr1="-5.0"/> 
+	<roll attr1="30.0"/>
+	<turretRole attr1="point_defense"/>
+</turret>
+<turret>
+    <turretID attr1="bullfrogT01"/> 
+    <turretOrientation attr1="left"/> 
+	<position x="-25.662" y="15.314" z="34.412"/>
+	<pitchLower attr1="-5.0"/> 
+	<roll attr1="-30.0"/>
+	<turretRole attr1="point_defense"/>
+</turret>
+<turret>
+    <turretID attr1="bullfrogT01"/> 
+	<position x="0.0" y="27.624" z="16.676"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="point_defense"/>
+</turret>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<targetPriorityList> 
+	<targetClass attr1="frigate"/>
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="corvette"/>
+	<targetClass attr1="cruiser"/>
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="dreadnaught"/> 
+	<targetClass attr1="attack_station"/>
+</targetPriorityList>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="5"/>
+	<activeUpgradeCapacity attr1="5"/>
+	<upgradeID attr1="overdriveSAU00"/>
+	<upgradeID attr1="projAccSAU00"/>
+	<upgradeID attr1="projectileSB00"/>
+	<upgradeID attr1="missile01"/>
+	<upgradeID attr1="missile02"/>
+	<upgradeID attr1="missile03"/>
+	<upgradeID attr1="cArmor00"/>
+	<upgradeID attr1="cShield00"/>
+	<upgradeID attr1="cShieldRecharge00"/>
+	<upgradeID attr1="cUpgradeRecharge00"/>
+	<upgradeID attr1="corvetteFShield00"/>
+	<upgradeID attr1="corvetteRShield01"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="corvetteMan00"/>
+	<upgradeID attr1="corvetteThrust00"/>
+	<upgradeID attr1="cAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="cArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="tractorBeam00"/>
+	<upgradeID attr1="cSpeed00"/>
+	<upgradeID attr1="turnBoostAU00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="attackMe00"/>
+	<upgradeID attr1="corvettePUS00"/>
+	<upgradeID attr1="corvetteAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<bLargeHangarOnly attr1="1"/>
+<shipHangarPosition x="121.87" y="0" z="100"/>
+<hangarID attr1="sfDS"/>

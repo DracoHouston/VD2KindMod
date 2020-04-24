@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Manual Fire Control Upgrade"/> 
+<objectID attr1="RoninFCS00"/> 
+<upgradeCategory attr1="weapon"/>
+<upgradeType attr1="other"/>
+<cost attr1="50000"/>
+<turret>
+  <turretID attr1="roninRT01"/>
+  <turretRole attr1="parents_target"/>
+  <position x="28.697" y="-21.012" z="-19.190"/>
+  <weaponFire attr1="secondary"/>
+  <weaponPositionID attr1="2"/>
+</turret>
+<description attr1="Refines Fire Control System to give manual control of railguns in the Secondary Weapons group"/>
+<description attr1=" "/>
+<description attr1="AI will no longer be given control of the railguns as they are placed under manual control"/>

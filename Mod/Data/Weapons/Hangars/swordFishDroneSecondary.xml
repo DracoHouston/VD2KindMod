@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="hangar"/>
+<hangarID attr1="sfDS"/> 
+<fighterShipID attr1="teardrop"/> 
+<name attr1="Hangar"/> 
+<maxFighters attr1="1"/> 
+<bPrimary attr1="0"/>
+<launchTube>
+    <launchDeckBeg x="0" y="-19.842" z="28.343"/>
+    <launchDeckEnd x="0" y="-40" z="28.343"/>
+	<direction attr1="down"/>
+</launchTube>
+<launchSpeedMultiplier attr1="1.5"/>
